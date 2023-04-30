@@ -1,28 +1,112 @@
-Package: com.supermamon.newpackage
-Version: 2.0.0-1
+Package: com.matthewbenedict.ios.fennec
+Version: 0.0.6-alpha
+Architecture: all
+Maintainer: UInt2048
+Depends: firmware (>=14.0)
+Filename: https://github.com/UInt2048/CyberKit/releases/download/v0.0.6-alpha/com.matthewbenedict.ios.fennec_0.0.6-alpha_all.deb
+Size: 124104604
+MD5sum: 060e644b637ead97ba552a1637d3e049
+SHA1: 9be52807df109b70aa93f2d50f7555e1c9a5ba66
+SHA256: e27f4cd9f266de396e60ae61ce1df916d4cc200248d6e4e280e6254215c584aa
 Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (>7.0), mobilesubstrate
-Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
-Size: 854
-MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
-Description: This is a sample new package. Firmware should be greater than 7.0
-Name: New Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
+Description: CyberKit Fennec allows you to test CyberKit using Firefox for iOS.
+Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.ios.fennec
+Icon: https://uint2048.github.io/CydiaIcon.png
+Name: CyberKit Fennec
 
-Package: com.supermamon.oldpackage
-Version: 1.0.0-1
+Package: com.matthewbenedict.mobileminibrowser
+Version: 0.0.1-alpha
+Architecture: all
+Maintainer: UInt2048
+Depends: firmware (>=14.0)
+Filename: https://github.com/UInt2048/CyberKit/releases/download/v0.0.1-alpha/com.matthewbenedict.mobileminibrowser_0.0.1-alpha_all.deb
+Size: 99694900
+MD5sum: 658f3a8c1435d74bb7454fc6d4f7a382
+SHA1: 8762084488773474e63615b892d154271e7860d7
+SHA256: 4a1fd187676a67807af868e1c96e8b12c85d550a33e36848bb43db8b95073621
 Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (<7.0)
-Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
-Size: 860
-MD5sum: 8c606f0c05217aa2a20949091fe516f0
-Description: This is a sample old package. Firmware should be lower than 7.0
-Name: Old Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+Description: CyberKit MobileMiniBrowser allows you to test the CyberKit backport of newer WebKit in a minimal browser.
+Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.mobileminibrowser
+Icon: https://uint2048.github.io/CydiaIcon.png
+Name: CyberKit MobileMiniBrowser
+
+Package: com.matthewbenedict.mobileminibrowser
+Version: 0.0.2-alpha
+Architecture: all
+Maintainer: UInt2048
+Depends: firmware (>=14.0)
+Filename: https://github.com/UInt2048/CyberKit/releases/download/v0.0.2-alpha/com.matthewbenedict.mobileminibrowser_0.0.2-alpha_all.deb
+Size: 99529140
+MD5sum: 530cabcc3f45f984badcbdd6adb0d1f3
+SHA1: 3b59c16c8b5c7cb59ffd5da4759df74fe5c3def7
+SHA256: 67ecace402100f5bb0befc2ca9fc1a01facfd9dcd63368096a6d141edf65bd02
+Section: Tweaks
+Description: CyberKit MobileMiniBrowser allows you to test the CyberKit backport of newer WebKit in a minimal browser.
+Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.mobileminibrowser
+Icon: https://uint2048.github.io/CydiaIcon.png
+Name: CyberKit MobileMiniBrowser
+
+Package: com.matthewbenedict.mobileminibrowser
+Version: 0.0.3-alpha
+Architecture: all
+Maintainer: UInt2048
+Depends: firmware (>=14.0)
+Filename: https://github.com/UInt2048/CyberKit/releases/download/v0.0.3-alpha/com.matthewbenedict.mobileminibrowser_0.0.3-alpha_all.deb
+Size: 99334716
+MD5sum: 77a5a4e09ac939c83b1007b92a4a7f47
+SHA1: 2dec0181111bf6ab95dcc2a64db644298344b1c5
+SHA256: 24f56d0b8cbc60a009fe8de8e268e2876ebd84e494ceef303ecc283b0a98fee6
+Section: Tweaks
+Description: CyberKit MobileMiniBrowser allows you to test the CyberKit backport of newer WebKit in a minimal browser.
+Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.mobileminibrowser
+Icon: https://uint2048.github.io/CydiaIcon.png
+Name: CyberKit MobileMiniBrowser
+
+Package: com.matthewbenedict.mobileminibrowser
+Version: 0.0.4-alpha
+Architecture: all
+Maintainer: UInt2048
+Depends: firmware (>=14.0)
+Filename: https://github.com/UInt2048/CyberKit/releases/download/v0.0.4-alpha/com.matthewbenedict.mobileminibrowser_0.0.4-alpha_all.deb
+Size: 99563644
+MD5sum: 5c6f4cee542c13d2953de608747ef5b4
+SHA1: b05615edaa5d615aee941cd9859f3b6e47a249fc
+SHA256: 21ad05fc1fcceca0639e5e14d494d4eef2522f3868ff0b9d190f30161f41a809
+Section: Tweaks
+Description: CyberKit MobileMiniBrowser allows you to test the CyberKit backport of newer WebKit in a minimal browser.
+Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.mobileminibrowser
+Icon: https://uint2048.github.io/CydiaIcon.png
+Name: CyberKit MobileMiniBrowser
+
+Package: com.matthewbenedict.mobileminibrowser
+Version: 0.0.5-alpha
+Architecture: all
+Maintainer: UInt2048
+Depends: firmware (>=13.0)
+Filename: https://github.com/UInt2048/CyberKit/releases/download/v0.0.5-alpha/com.matthewbenedict.mobileminibrowser_0.0.5-alpha_all.deb
+Size: 99329832
+MD5sum: 03e639fe53fc4baec2dd731d31323136
+SHA1: 1ef3fc70556d9324d3d3cd3a10f065b3b8f75aa5
+SHA256: 9902ccb1b136c2c48cef53177eeb39ffa7a2d966f1d6b45c860fa75dab529b09
+Section: Tweaks
+Description: CyberKit MobileMiniBrowser allows you to test the CyberKit backport of newer WebKit in a minimal browser.
+Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.mobileminibrowser
+Icon: https://uint2048.github.io/CydiaIcon.png
+Name: CyberKit MobileMiniBrowser
+
+Package: com.matthewbenedict.mobileminibrowser
+Version: 0.0.6-alpha
+Architecture: all
+Maintainer: UInt2048
+Depends: firmware (>=13.0)
+Filename: https://github.com/UInt2048/CyberKit/releases/download/v0.0.6-alpha/com.matthewbenedict.mobileminibrowser_0.0.6-alpha_all.deb
+Size: 102525412
+MD5sum: 147131526038b64079e7e107473c80eb
+SHA1: 21503f1d95428a19c1ca06b6a167011cda25bfad
+SHA256: 85625c247ffe0d6aeefda3dad1029f53d725e8d8377bab9b7c9b906fc3022d64
+Section: Tweaks
+Description: CyberKit MobileMiniBrowser allows you to test the CyberKit backport of newer WebKit in a minimal browser.
+Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.mobileminibrowser
+Icon: https://uint2048.github.io/CydiaIcon.png
+Name: CyberKit MobileMiniBrowser
 

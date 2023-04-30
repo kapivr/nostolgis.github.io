@@ -146,19 +146,30 @@ Depiction: https://username.github.io/repo/depictions/?p=com.supermamon.oldpacka
 
 #### 3. Rebuilding the `Packages` file
 
+If distributing an iOS app, update the `control` file with the correct version number, and then create the DEB file by:
+
+```sh
+find . -name ".DS_Store" -delete && dpkg-deb -b debs/com.matthewbenedict.mobileminibrowser && dpkg-name debs/com.matthewbenedict.mobileminibrowser.deb
+```
+
+```sh
+find . -name ".DS_Store" -delete && dpkg-deb -b debs/com.matthewbenedict.ios.fennec && dpkg-name debs/com.matthewbenedict.ios.fennec.deb
+```
+
 With your updated `control` file, build your tweak.
 Store the resulting `.deb.` file into the `/debs/` folder of your repo.
 Build your `Packages` file and compress with `bzip2`.
 
 ```sh
-user:~/ $ cd repo
-user:~/repo $ dpkg-scanpackages -m ./debs > Packages
-user:~/repo $ bzip2 Packages
+dpkg-scanpackages -m ./debs > Packages
+```
+```sh
+bzip2 Packages -k -f
 ```
 
 _Windows users, see [dpkg-scanpackages-py](https://github.com/supermamon/dpkg-scanpackages-py) or [scanpkg](https://github.com/mstg/scanpkg)._
 
-#### 5. Cydia at last!
+#### 4. Cydia at last!
 
 Push your changes again to Github and if you haven't done yet, go ahead and add your repo to Cydia.
 You should now be able to install your tweak into your own repo.

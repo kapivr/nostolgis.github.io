@@ -1,0 +1,26 @@
+<package>
+	<id>com.matthewbenedict.ios.fennec</id>
+	<name>CyberKit Fennec</name>
+	<version>0.0.6-alpha</version>
+	<compatibility>
+		<firmware>
+			<miniOS>14.0</miniOS>
+			<maxiOS>14.8.1</maxiOS>
+			<otherVersions>unconfirmed</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>
+		CyberKit Fennec allows you to test CyberKit using Firefox for iOS.
+		</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Progress on iOS 13 support and initial release of CyberKit Fennec (Client)</change>
+	</changelog>
+	<links></links>
+</package>

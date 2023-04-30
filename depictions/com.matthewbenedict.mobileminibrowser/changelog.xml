@@ -1,0 +1,26 @@
+<changelog>
+	<changes>
+		<version>0.0.6-alpha</version>
+		<change>Progress on iOS 13 support and initial release of CyberKit Fennec (Client)</change>
+	</changes>
+	<changes>
+		<version>0.0.5-alpha</version>
+		<change>Cleaned up codebase and introduced theoretical iOS 13 support</change>
+	</changes>
+	<changes>
+		<version>0.0.4-alpha</version>
+		<change>Change default user agent string to Safari for better site results</change>
+	</changes>
+	<changes>
+		<version>0.0.3-alpha</version>
+		<change>Removed most powerful entitlements, now allowing for theoretical iOS 15+ support</change>
+	</changes>
+	<changes>
+		<version>0.0.2-alpha</version>
+		<change>Removed unneccessary code bypasses</change>
+	</changes>
+	<changes>
+		<version>0.0.1-alpha</version>
+		<change>Initial release</change>
+	</changes>
+</changelog>
