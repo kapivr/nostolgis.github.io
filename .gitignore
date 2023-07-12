@@ -1,4 +1,4 @@
 .DS_Store
 debs/*
-!debs/com.matthewbenedict.mobileminibrowser_0.0.7-alpha_all.deb
-!debs/com.matthewbenedict.ios.fennec_0.0.7-alpha_all.deb
+!debs/com.matthewbenedict.mobileminibrowser_0.0.7-alpha_iphoneos-arm.deb
+!debs/com.matthewbenedict.ios.fennec_0.0.7-alpha_iphoneos-arm.deb
