@@ -1,12 +1,12 @@
 <package>
-	<id>com.matthewbenedict.mobileminibrowser</id>
-	<name>CyberKit MobileMiniBrowser Dummy Package</name>
+	<id>com.matthewbenedict.ios.fennec+15</id>
+	<name>CyberKit Fennec (iOS 15 Rootful)</name>
 	<version>0.0.7-alpha</version>
 	<compatibility>
 		<firmware>
-			<miniOS>12.0</miniOS>
-			<maxiOS>16.5.1</maxiOS>
-			<otherVersions>unconfirmed</otherVersions>
+			<miniOS>15.0</miniOS>
+			<maxiOS>15.7.7</maxiOS>
+			<otherVersions>unsupported</otherVersions>
 			<!--
 			for otherVersions, you can put either unsupported or unconfirmed
 			-->
@@ -15,18 +15,22 @@
 	<dependencies></dependencies>
 	<descriptionlist>
 		<description>
-		This package does nothing and can be safely uninstalled.
+		CyberKit Fennec allows you to test CyberKit using Firefox for iOS.
 		
-		To maximize enabled features, please install the correct release for your OS.
-		Do not attempt to install two MobileMiniBrowser versions at the same time.
+		This release is for iOS 15 on rootful jailbreaks. If you're not on iOS 15, you should install a release for your iOS.
+		If you're on a rootless jailbreak, please install the rootless release.
 		
-		CyberKit MobileMiniBrowser allows you to test the CyberKit backport of newer WebKit in a minimal browser.
+		Please report any bugs you find on GitHub.
+		
+		If you have not configured CyberKit before, please see GitHub for jetsam configuration instructions.
+		Failure to complete this step will result in a crash.
 		</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
 		<change>Updated WebKit from 7616.1.7 branch to 7616.1.12 branch</change>
 		<change>Bundle internationalization instead of using potentially older system data, and other iOS 12 work</change>
+	</changes>
 	</changelog>
 	<links>
 		<link>

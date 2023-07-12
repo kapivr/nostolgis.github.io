@@ -14,6 +14,118 @@ Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.ios.fenn
 Icon: https://uint2048.github.io/CydiaIcon.png
 Name: CyberKit Fennec
 
+Package: com.matthewbenedict.ios.fennec
+Version: 0.0.7-alpha
+Architecture: all
+Maintainer: UInt2048
+Conflicts: com.matthewbenedict.ios.fennec
+Replaces: com.matthewbenedict.ios.fennec
+Filename: ./debs/com.matthewbenedict.ios.fennec_0.0.7-alpha_all.deb
+Size: 924
+MD5sum: 9da2735e4529242ddcde270774bc4013
+SHA1: 41cec7a812513f2e5087a72ffabf2168c5e552fa
+SHA256: f06cdc5bd185b4708ba82e97ad5af7c7b4b6990b30a648a96e19de81cad77b02
+Section: Tweaks
+Description: This package does nothing and is safe to uninstall.
+Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.ios.fennec
+Icon: https://uint2048.github.io/CydiaIcon.png
+Name: CyberKit Fennec Dummy Package
+
+Package: com.matthewbenedict.ios.fennec+14
+Version: 0.0.7-alpha
+Architecture: iphoneos-arm
+Maintainer: UInt2048
+Depends: firmware (>=14.0), firmware (<<15.0)
+Conflicts: com.matthewbenedict.ios.fennec
+Replaces: com.matthewbenedict.ios.fennec
+Provides: com.matthewbenedict.ios.fennec (= 0.0.7-alpha)
+Filename: https://github.com/UInt2048/CyberKit/releases/download/v0.0.7-alpha/com.matthewbenedict.ios.fennec+14_0.0.7-alpha_iphoneos-arm.deb
+Size: 132648352
+MD5sum: 5380dfd4da51fd966d828ee1e4813363
+SHA1: 466b5627c7b14a24e57c30e1b29701505bfa8dd9
+SHA256: 98ecc606a6f810bd3bad637d97b2227f3a77fe5a77f67c74a1aeb3f23ef81b97
+Section: Tweaks
+Description: CyberKit Fennec allows you to test CyberKit using Firefox for iOS.
+Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.ios.fennec+14
+Icon: https://uint2048.github.io/CydiaIcon.png
+Name: CyberKit Fennec (iOS 14)
+
+Package: com.matthewbenedict.ios.fennec+15
+Version: 0.0.7-alpha
+Architecture: iphoneos-arm
+Maintainer: UInt2048
+Depends: firmware (>=15.0), firmware (<<16.0)
+Conflicts: com.matthewbenedict.ios.fennec
+Replaces: com.matthewbenedict.ios.fennec
+Provides: com.matthewbenedict.ios.fennec (= 0.0.7-alpha)
+Filename: https://github.com/UInt2048/CyberKit/releases/download/v0.0.7-alpha/com.matthewbenedict.ios.fennec+15_0.0.7-alpha_iphoneos-arm.deb
+Size: 132257064
+MD5sum: 467c096b2c409ebb2c79e194fc1772f4
+SHA1: 329661fac32b5bfa9d64c0151e442846d6f71856
+SHA256: a4d64bb24e50c94f6769dad0c394cf930c9bc66210ef9798e36945a66a1ef5a7
+Section: Tweaks
+Description: CyberKit Fennec allows you to test CyberKit using Firefox for iOS.
+Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.ios.fennec+15
+Icon: https://uint2048.github.io/CydiaIcon.png
+Name: CyberKit Fennec (iOS 15 Rootful)
+
+Package: com.matthewbenedict.ios.fennec+16
+Version: 0.0.7-alpha
+Architecture: iphoneos-arm
+Maintainer: UInt2048
+Depends: firmware (>=16.0), firmware (<<17.0)
+Conflicts: com.matthewbenedict.ios.fennec
+Replaces: com.matthewbenedict.ios.fennec
+Provides: com.matthewbenedict.ios.fennec (= 0.0.7-alpha)
+Filename: https://github.com/UInt2048/CyberKit/releases/download/v0.0.7-alpha/com.matthewbenedict.ios.fennec+16_0.0.7-alpha_iphoneos-arm.deb
+Size: 132708820
+MD5sum: d3ba4d4e1cc2c241fb643888dafd26b9
+SHA1: e918e41fc392c15b8c8da3a3193ded08ae444c88
+SHA256: f6848214bea1d3e33314f6d2969939b41b68f94ef1f3741c099f53b174bfc6d3
+Section: Tweaks
+Description: CyberKit Fennec allows you to test CyberKit using Firefox for iOS.
+Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.ios.fennec+16
+Icon: https://uint2048.github.io/CydiaIcon.png
+Name: CyberKit Fennec (iOS 16 Rootful)
+
+Package: com.matthewbenedict.ios.fennec-15
+Version: 0.0.7-alpha
+Architecture: iphoneos-arm64
+Maintainer: UInt2048
+Depends: firmware (>=15.0), firmware (<<16.0)
+Conflicts: com.matthewbenedict.ios.fennec
+Replaces: com.matthewbenedict.ios.fennec
+Provides: com.matthewbenedict.ios.fennec (= 0.0.7-alpha)
+Filename: https://github.com/UInt2048/CyberKit/releases/download/v0.0.7-alpha/com.matthewbenedict.ios.fennec-15_0.0.7-alpha_iphoneos-arm64.deb
+Size: 132227724
+MD5sum: 7f1704b24b7c977de44282b562ee4e4b
+SHA1: bef3106c961781072114900d495e3e24f17d5847
+SHA256: c8502fce190f2f0a31c5115a70ad38a711947f72198251f393b9b25e7e43195a
+Section: Tweaks
+Description: CyberKit Fennec allows you to test CyberKit using Firefox for iOS.
+Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.ios.fennec-15
+Icon: https://uint2048.github.io/CydiaIcon.png
+Name: CyberKit Fennec (iOS 15 Rootless)
+
+Package: com.matthewbenedict.ios.fennec-16
+Version: 0.0.7-alpha
+Architecture: iphoneos-arm64
+Maintainer: UInt2048
+Depends: firmware (>=16.0), firmware (<<17.0)
+Conflicts: com.matthewbenedict.ios.fennec
+Replaces: com.matthewbenedict.ios.fennec
+Provides: com.matthewbenedict.ios.fennec (= 0.0.7-alpha)
+Filename: https://github.com/UInt2048/CyberKit/releases/download/v0.0.7-alpha/com.matthewbenedict.ios.fennec-16_0.0.7-alpha_iphoneos-arm64.deb
+Size: 132772940
+MD5sum: bc206c6ac41989263ba77185621b8adb
+SHA1: 730cfbe85147fd9962c0a78a78d30700d4fc78bf
+SHA256: 0d072ad1876fa4dd2ea0dce2a7bf68810354bd6494e9d6d8583599cd24de3686
+Section: Tweaks
+Description: CyberKit Fennec allows you to test CyberKit using Firefox for iOS.
+Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.ios.fennec-16
+Icon: https://uint2048.github.io/CydiaIcon.png
+Name: CyberKit Fennec (iOS 16 Rootless)
+
 Package: com.matthewbenedict.mobileminibrowser
 Version: 0.0.1-alpha
 Architecture: all
@@ -109,4 +221,154 @@ Description: CyberKit MobileMiniBrowser allows you to test the CyberKit backport
 Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.mobileminibrowser
 Icon: https://uint2048.github.io/CydiaIcon.png
 Name: CyberKit MobileMiniBrowser
+
+Package: com.matthewbenedict.mobileminibrowser
+Version: 0.0.7-alpha
+Architecture: all
+Maintainer: UInt2048
+Conflicts: com.matthewbenedict.mobileminibrowser
+Replaces: com.matthewbenedict.mobileminibrowser
+Filename: ./debs/com.matthewbenedict.mobileminibrowser_0.0.7-alpha_all.deb
+Size: 928
+MD5sum: 8aa8c1f4bf339cd775100b3ae5d790ce
+SHA1: aec16f6a9115ea6862edbbc373c558e026819eb2
+SHA256: 99eb115e462c0d69bf355dfdf5e875806303950ccf9ddb77abf7e04d71022461
+Section: Tweaks
+Description: This package does nothing and is safe to uninstall.
+Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.mobileminibrowser
+Icon: https://uint2048.github.io/CydiaIcon.png
+Name: CyberKit MobileMiniBrowser Dummy Package
+
+Package: com.matthewbenedict.mobileminibrowser+12
+Version: 0.0.7-alpha
+Architecture: iphoneos-arm
+Maintainer: UInt2048
+Depends: firmware (>=12.0), firmware (<<13.0)
+Conflicts: com.matthewbenedict.mobileminibrowser
+Replaces: com.matthewbenedict.mobileminibrowser
+Provides: com.matthewbenedict.mobileminibrowser (= 0.0.7-alpha)
+Filename: https://github.com/UInt2048/CyberKit/releases/download/v0.0.7-alpha/com.matthewbenedict.mobileminibrowser+12_0.0.7-alpha_iphoneos-arm.deb
+Size: 112032056
+MD5sum: 931de06787fe99b782a677bd3465f2e3
+SHA1: 37004d9a0826d69d682aaac5c9317dd011b2ad5e
+SHA256: b258242668c046539a7afafd6ad940007830f5a95d6c87d7b828a8dee7c333fd
+Section: Tweaks
+Description: CyberKit MobileMiniBrowser allows you to test the CyberKit backport of newer CyberKit in a minimal browser.
+Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.mobileminibrowser+12
+Icon: https://uint2048.github.io/CydiaIcon.png
+Name: CyberKit MobileMiniBrowser (iOS 12)
+
+Package: com.matthewbenedict.mobileminibrowser+13
+Version: 0.0.7-alpha
+Architecture: iphoneos-arm
+Maintainer: UInt2048
+Depends: firmware (>=13.0), firmware (<<14.0)
+Conflicts: com.matthewbenedict.mobileminibrowser
+Replaces: com.matthewbenedict.mobileminibrowser
+Provides: com.matthewbenedict.mobileminibrowser (= 0.0.7-alpha)
+Filename: https://github.com/UInt2048/CyberKit/releases/download/v0.0.7-alpha/com.matthewbenedict.mobileminibrowser+13_0.0.7-alpha_iphoneos-arm.deb
+Size: 113427948
+MD5sum: 07571854171076a041161335e67daaf9
+SHA1: da92f3c4538f8b43fc5dc51c29527807021a3e04
+SHA256: 05acd733ec2d53d4a3537f219a437c820b48e8017356267420f631f0d778fe74
+Section: Tweaks
+Description: CyberKit MobileMiniBrowser allows you to test the CyberKit backport of newer CyberKit in a minimal browser.
+Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.mobileminibrowser+13
+Icon: https://uint2048.github.io/CydiaIcon.png
+Name: CyberKit MobileMiniBrowser (iOS 13)
+
+Package: com.matthewbenedict.mobileminibrowser+14
+Version: 0.0.7-alpha
+Architecture: iphoneos-arm
+Maintainer: UInt2048
+Depends: firmware (>=14.0), firmware (<<15.0)
+Conflicts: com.matthewbenedict.mobileminibrowser
+Replaces: com.matthewbenedict.mobileminibrowser
+Provides: com.matthewbenedict.mobileminibrowser (= 0.0.7-alpha)
+Filename: https://github.com/UInt2048/CyberKit/releases/download/v0.0.7-alpha/com.matthewbenedict.mobileminibrowser+14_0.0.7-alpha_iphoneos-arm.deb
+Size: 113214736
+MD5sum: b3516996e248908c187df34cd431853c
+SHA1: 4403016c9ab86ef96eb8d6c532e93ad6025b0c93
+SHA256: face819c6edd2cd318881749fa9e10bfd6a5838a715ef1135f904f60e7101507
+Section: Tweaks
+Description: CyberKit MobileMiniBrowser allows you to test the CyberKit backport of newer CyberKit in a minimal browser.
+Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.mobileminibrowser+14
+Icon: https://uint2048.github.io/CydiaIcon.png
+Name: CyberKit MobileMiniBrowser (iOS 14)
+
+Package: com.matthewbenedict.mobileminibrowser+15
+Version: 0.0.7-alpha
+Architecture: iphoneos-arm
+Maintainer: UInt2048
+Depends: firmware (>=15.0), firmware (<<16.0)
+Conflicts: com.matthewbenedict.mobileminibrowser
+Replaces: com.matthewbenedict.mobileminibrowser
+Provides: com.matthewbenedict.mobileminibrowser (= 0.0.7-alpha)
+Filename: https://github.com/UInt2048/CyberKit/releases/download/v0.0.7-alpha/com.matthewbenedict.mobileminibrowser+15_0.0.7-alpha_iphoneos-arm.deb
+Size: 113284552
+MD5sum: 98acd5829c096409afe381b059d52efe
+SHA1: 6d9aa5b48f4b25aa49d038d44191981f0846f309
+SHA256: c044e2af02e050760e0736c8bc1ab00af5de56985a7587522d33bfb019d7c2fa
+Section: Tweaks
+Description: CyberKit MobileMiniBrowser allows you to test the CyberKit backport of newer CyberKit in a minimal browser.
+Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.mobileminibrowser+15
+Icon: https://uint2048.github.io/CydiaIcon.png
+Name: CyberKit MobileMiniBrowser (iOS 15 Rootful)
+
+Package: com.matthewbenedict.mobileminibrowser+16
+Version: 0.0.7-alpha
+Architecture: iphoneos-arm
+Maintainer: UInt2048
+Depends: firmware (>=16.0), firmware (<<17.0)
+Conflicts: com.matthewbenedict.mobileminibrowser
+Replaces: com.matthewbenedict.mobileminibrowser
+Provides: com.matthewbenedict.mobileminibrowser (= 0.0.7-alpha)
+Filename: =https://github.com/UInt2048/CyberKit/releases/download/v0.0.7-alpha/com.matthewbenedict.mobileminibrowser+16_0.0.7-alpha_iphoneos-arm.deb
+Size: 113750680
+MD5sum: 74854d936f431d2964f2297a5534eb1f
+SHA1: dff2c5fc65b4fb8c5a96284b3c42a1cc6e7b24bb
+SHA256: bb4092b44021035f16cf9ba99bbf1e00f055f63962ecd240117d20010643f202
+Section: Tweaks
+Description: CyberKit MobileMiniBrowser allows you to test the CyberKit backport of newer CyberKit in a minimal browser.
+Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.mobileminibrowser+16
+Icon: https://uint2048.github.io/CydiaIcon.png
+Name: CyberKit MobileMiniBrowser (iOS 16 Rootful)
+
+Package: com.matthewbenedict.mobileminibrowser-15
+Version: 0.0.7-alpha
+Architecture: iphoneos-arm64
+Maintainer: UInt2048
+Depends: firmware (>=15.0), firmware (<<16.0)
+Conflicts: com.matthewbenedict.mobileminibrowser
+Replaces: com.matthewbenedict.mobileminibrowser
+Provides: com.matthewbenedict.mobileminibrowser (= 0.0.7-alpha)
+Filename: https://github.com/UInt2048/CyberKit/releases/download/v0.0.7-alpha/com.matthewbenedict.mobileminibrowser-15_0.0.7-alpha_iphoneos-arm64.deb
+Size: 113139016
+MD5sum: 3722bccbaca062fb230cf0843fed9ba6
+SHA1: 80a887066720541534580fd3f4aaf11033209431
+SHA256: ae5bfbdb99444f3a1259e4b32363aa2b158e6ab7a90bbfc39da7d3574a28f8f5
+Section: Tweaks
+Description: CyberKit MobileMiniBrowser allows you to test the CyberKit backport of newer CyberKit in a minimal browser.
+Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.mobileminibrowser-15
+Icon: https://uint2048.github.io/CydiaIcon.png
+Name: CyberKit MobileMiniBrowser (iOS 15 Rootless)
+
+Package: com.matthewbenedict.mobileminibrowser-16
+Version: 0.0.7-alpha
+Architecture: iphoneos-arm64
+Maintainer: UInt2048
+Depends: firmware (>=16.0), firmware (<<17.0)
+Conflicts: com.matthewbenedict.mobileminibrowser
+Replaces: com.matthewbenedict.mobileminibrowser
+Provides: com.matthewbenedict.mobileminibrowser (= 0.0.7-alpha)
+Filename: https://github.com/UInt2048/CyberKit/releases/download/v0.0.7-alpha/com.matthewbenedict.mobileminibrowser-16_0.0.7-alpha_iphoneos-arm64.deb
+Size: 113318240
+MD5sum: 2ac242358d0a6138dda5304cad23b911
+SHA1: e73fb23a28e6db7dee176eabf0af053db8068d01
+SHA256: 015fa2e77b969f33ba7385c86187b03abbe1c05577aa220a4559ce1d569aafbb
+Section: Tweaks
+Description: CyberKit MobileMiniBrowser allows you to test the CyberKit backport of newer CyberKit in a minimal browser.
+Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.mobileminibrowser-16
+Icon: https://uint2048.github.io/CydiaIcon.png
+Name: CyberKit MobileMiniBrowser (iOS 16 Rootless)
 

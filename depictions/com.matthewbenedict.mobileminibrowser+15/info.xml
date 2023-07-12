@@ -1,0 +1,40 @@
+<package>
+	<id>com.matthewbenedict.mobileminibrowser+15</id>
+	<name>CyberKit MobileMiniBrowser (iOS 15 Rootful)</name>
+	<version>0.0.7-alpha</version>
+	<compatibility>
+		<firmware>
+			<miniOS>15.0</miniOS>
+			<maxiOS>15.7.7</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>
+		CyberKit MobileMiniBrowser allows you to test the CyberKit backport of newer WebKit in a minimal browser.
+		
+		This release is for iOS 15 on rootful jailbreaks. If you're not on iOS 15, you should install a release for your iOS.
+		If you're on a rootless jailbreak, please install the rootless release.
+		
+		Please report any bugs you find on GitHub.
+		
+		If you have not configured CyberKit before, please see GitHub for jetsam configuration instructions.
+		Failure to complete this step will result in a crash.
+		</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Updated WebKit from 7616.1.7 branch to 7616.1.12 branch</change>
+		<change>Bundle internationalization instead of using potentially older system data, and other iOS 12 work</change>
+	</changelog>
+	<links>
+		<link>
+			<name>CyberKit GitHub</name>
+			<url>https://github.com/UInt2048/CyberKit</url>
+		</link>
+	</links>
+</package>

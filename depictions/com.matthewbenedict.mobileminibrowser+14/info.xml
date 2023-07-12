@@ -1,12 +1,12 @@
 <package>
-	<id>com.matthewbenedict.mobileminibrowser</id>
-	<name>CyberKit MobileMiniBrowser Dummy Package</name>
+	<id>com.matthewbenedict.mobileminibrowser+14</id>
+	<name>CyberKit MobileMiniBrowser (iOS 14)</name>
 	<version>0.0.7-alpha</version>
 	<compatibility>
 		<firmware>
-			<miniOS>12.0</miniOS>
-			<maxiOS>16.5.1</maxiOS>
-			<otherVersions>unconfirmed</otherVersions>
+			<miniOS>14.0</miniOS>
+			<maxiOS>14.8.1</maxiOS>
+			<otherVersions>unsupported</otherVersions>
 			<!--
 			for otherVersions, you can put either unsupported or unconfirmed
 			-->
@@ -15,12 +15,14 @@
 	<dependencies></dependencies>
 	<descriptionlist>
 		<description>
-		This package does nothing and can be safely uninstalled.
-		
-		To maximize enabled features, please install the correct release for your OS.
-		Do not attempt to install two MobileMiniBrowser versions at the same time.
-		
 		CyberKit MobileMiniBrowser allows you to test the CyberKit backport of newer WebKit in a minimal browser.
+		
+		This release is for iOS 14. If you're not on iOS 14, you should install a release for your iOS.
+		
+		Please report any bugs you find on GitHub.
+		
+		If you have not configured CyberKit before, please see GitHub for jetsam configuration instructions.
+		Failure to complete this step will result in a crash.
 		</description>
 	</descriptionlist>
 	<screenshots></screenshots>

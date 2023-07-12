@@ -1,11 +1,11 @@
 <package>
 	<id>com.matthewbenedict.ios.fennec</id>
-	<name>CyberKit Fennec</name>
-	<version>0.0.6-alpha</version>
+	<name>CyberKit Fennec Dummy Package</name>
+	<version>0.0.7-alpha</version>
 	<compatibility>
 		<firmware>
 			<miniOS>14.0</miniOS>
-			<maxiOS>14.8.1</maxiOS>
+			<maxiOS>16.5.1</maxiOS>
 			<otherVersions>unconfirmed</otherVersions>
 			<!--
 			for otherVersions, you can put either unsupported or unconfirmed
@@ -15,12 +15,24 @@
 	<dependencies></dependencies>
 	<descriptionlist>
 		<description>
+		This package does nothing and can be safely uninstalled.
+		
+		To maximize enabled features, please install the correct release for your OS.
+		Do not attempt to install two MobileMiniBrowser versions at the same time.
+		
 		CyberKit Fennec allows you to test CyberKit using Firefox for iOS.
 		</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
-		<change>Progress on iOS 13 support and initial release of CyberKit Fennec (Client)</change>
+		<change>Updated WebKit from 7616.1.7 branch to 7616.1.12 branch</change>
+		<change>Bundle internationalization instead of using potentially older system data, and other iOS 12 work</change>
+	</changes>
 	</changelog>
-	<links></links>
+	<links>
+		<link>
+			<name>CyberKit GitHub</name>
+			<url>https://github.com/UInt2048/CyberKit</url>
+		</link>
+	</links>
 </package>
