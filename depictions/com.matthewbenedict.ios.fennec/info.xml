@@ -26,7 +26,6 @@
 	<changelog>
 		<change>Updated WebKit from 7616.1.7 branch to 7616.1.12 branch</change>
 		<change>Bundle internationalization instead of using potentially older system data, and other iOS 12 work</change>
-	</changes>
 	</changelog>
 	<links>
 		<link>
