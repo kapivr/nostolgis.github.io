@@ -1,6 +1,6 @@
 <package>
 	<id>com.matthewbenedict.mobileminibrowser</id>
-	<name>CyberKit MobileMiniBrowser Dummy Package</name>
+	<name>CyberKit MobileMiniBrowser Jetsam Configurator</name>
 	<version>0.0.7-alpha</version>
 	<compatibility>
 		<firmware>
@@ -15,12 +15,11 @@
 	<dependencies></dependencies>
 	<descriptionlist>
 		<description>
-		This package does nothing and can be safely uninstalled.
+		If you have CyberKit MobileMiniBrowser installed, you should uninstall that first.
 		
-		To maximize enabled features, please install the correct release for your OS.
-		Do not attempt to install two MobileMiniBrowser versions at the same time.
+		Installing this package causes jetsam to magically configure on your device.
 		
-		CyberKit MobileMiniBrowser allows you to test the CyberKit backport of newer WebKit in a minimal browser.
+		Then, you can remove this package as soon as it installs.
 		</description>
 	</descriptionlist>
 	<screenshots></screenshots>

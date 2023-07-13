@@ -38,10 +38,10 @@ Depends: plistbuddy
 Conflicts: com.matthewbenedict.ios.fennec
 Replaces: com.matthewbenedict.ios.fennec
 Filename: ./debs/com.matthewbenedict.ios.fennec_0.0.7-alpha_iphoneos-arm.deb
-Size: 1148
-MD5sum: 96df19193070190b0dcc1c605c3420fb
-SHA1: 330b49bb2366a4a4126b3181babbd7eb093df377
-SHA256: 26a0900270dc61e77b3a67b202ca76842da6047e4112eac8df824fd8b30a3bc3
+Size: 1188
+MD5sum: 1338d4aeb38826cf4d6eb195bcf06828
+SHA1: dabf3e9685e2a8e98b6621a64dca6e3dac38a011
+SHA256: da67d93130abc6e149986d116c31aa31e80ef0a5c0ab43152a5a7f80c94dfbac
 Section: Tweaks
 Description: Once installed, this package does nothing and is safe to uninstall.
 Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.ios.fennec
@@ -263,10 +263,10 @@ Depends: plistbuddy
 Conflicts: com.matthewbenedict.mobileminibrowser
 Replaces: com.matthewbenedict.mobileminibrowser
 Filename: ./debs/com.matthewbenedict.mobileminibrowser_0.0.7-alpha_iphoneos-arm.deb
-Size: 1156
-MD5sum: 7cbe9a032f82215718d5372464778437
-SHA1: b13b66b65f44d300b1a40e1944df1530a230261e
-SHA256: 6da0019cb6fa5661275f7b65f14c02bd95d1051ac4a3a14bea3777a134112735
+Size: 1200
+MD5sum: 4e29b2f630e5c3d194fcd26739026ffb
+SHA1: d7f5192f669fa4470a482cb541e520343935a52c
+SHA256: 31d9ef5d92a3b6bcf73312937512fc9824a6791a7fff78d697e6c6e242b12937
 Section: Tweaks
 Description: Once installed, this package does nothing and is safe to uninstall.
 Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.mobileminibrowser
