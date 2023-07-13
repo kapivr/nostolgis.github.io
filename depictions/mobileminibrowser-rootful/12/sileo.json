@@ -1,0 +1,84 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "headerImage": "https://uint2048.github.io/CydiaIcon.png",
+  "tintColor": "#6264D3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Information",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Description"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "CyberKit MobileMiniBrowser allows you to test the CyberKit backport of newer WebKit in a minimal browser.\n\nThis release is for iOS 12. If you're not on iOS 12, there are other releases available.\n\nPlease see issue #2 on GitHub for current status.\n\nIf you have not configured CyberKit before, please see GitHub for jetsam configuration instructions.\nFailure to complete this step will result in a crash."
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "v0.0.7 alpha"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Updated WebKit from 7616.1.7 branch to 7616.1.12 branch, bundle internationalization instead of using potentially older system data, and other iOS 12 work"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "v0.0.6 alpha"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Progress on iOS 13 support and initial release of CyberKit Fennec (Client)"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "v0.0.5 alpha"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Cleaned up codebase and introduced theoretical iOS 13 support"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "v0.0.4 alpha"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Change default user agent string to Safari for better site results"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "v0.0.3 alpha"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Removed most powerful entitlements, now allowing for theoretical iOS 15+ support"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "v0.0.2 alpha"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Removed unneccessary code bypasses"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "v0.0.1 alpha"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Initial release"
+        }
+      ]
+    }
+  ]
+}

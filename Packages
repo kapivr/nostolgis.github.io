@@ -1,3 +1,20 @@
+Package: com.matthewbenedict.cyberkit
+Version: 0.0.7-alpha
+Architecture: iphoneos-arm
+Maintainer: UInt2048
+Depends: plistbuddy
+Filename: ./debs/com.matthewbenedict.cyberkit_0.0.7-alpha_iphoneos-arm.deb
+Size: 1172
+MD5sum: 8df21156e1d3147a708bfcc6dd462ab7
+SHA1: 480c8fbfbc219c3e71195789d0bc279b34a22058
+SHA256: 41422a33d723244c7caf000a0816b4bf942f7cca63a2d7ab38e4d07b181ff4fc
+Section: Tweaks
+Description: Install this to configure jetsam, then you can uninstall!
+Depiction: https://uint2048.github.io/depictions/?p=jetsam-configurator
+Icon: https://uint2048.github.io/CydiaIcon.png
+Name: CyberKit Jetsam Configurator
+Sileodepiction: https://uint2048.github.io/depictions/jetsam-configurator/sileo.json
+
 Package: com.matthewbenedict.ios.fennec
 Version: 0.0.6-alpha
 Architecture: iphoneos-arm64
@@ -29,24 +46,6 @@ Description: CyberKit Fennec allows you to test CyberKit using Firefox for iOS.
 Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.ios.fennec
 Icon: https://uint2048.github.io/CydiaIcon.png
 Name: CyberKit Fennec
-
-Package: com.matthewbenedict.ios.fennec
-Version: 0.0.7-alpha
-Architecture: iphoneos-arm
-Maintainer: UInt2048
-Depends: plistbuddy
-Conflicts: com.matthewbenedict.ios.fennec
-Replaces: com.matthewbenedict.ios.fennec
-Filename: ./debs/com.matthewbenedict.ios.fennec_0.0.7-alpha_iphoneos-arm.deb
-Size: 1188
-MD5sum: 1338d4aeb38826cf4d6eb195bcf06828
-SHA1: dabf3e9685e2a8e98b6621a64dca6e3dac38a011
-SHA256: da67d93130abc6e149986d116c31aa31e80ef0a5c0ab43152a5a7f80c94dfbac
-Section: Tweaks
-Description: Once installed, this package does nothing and is safe to uninstall.
-Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.ios.fennec
-Icon: https://uint2048.github.io/CydiaIcon.png
-Name: CyberKit Fennec Jetsam Configurator
 
 Package: com.matthewbenedict.ios.fennec+14
 Version: 0.0.7-alpha
@@ -254,24 +253,6 @@ Description: CyberKit MobileMiniBrowser allows you to test the CyberKit backport
 Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.mobileminibrowser
 Icon: https://uint2048.github.io/CydiaIcon.png
 Name: CyberKit MobileMiniBrowser
-
-Package: com.matthewbenedict.mobileminibrowser
-Version: 0.0.7-alpha
-Architecture: iphoneos-arm
-Maintainer: UInt2048
-Depends: plistbuddy
-Conflicts: com.matthewbenedict.mobileminibrowser
-Replaces: com.matthewbenedict.mobileminibrowser
-Filename: ./debs/com.matthewbenedict.mobileminibrowser_0.0.7-alpha_iphoneos-arm.deb
-Size: 1200
-MD5sum: 4e29b2f630e5c3d194fcd26739026ffb
-SHA1: d7f5192f669fa4470a482cb541e520343935a52c
-SHA256: 31d9ef5d92a3b6bcf73312937512fc9824a6791a7fff78d697e6c6e242b12937
-Section: Tweaks
-Description: Once installed, this package does nothing and is safe to uninstall.
-Depiction: https://uint2048.github.io/depictions/?p=com.matthewbenedict.mobileminibrowser
-Icon: https://uint2048.github.io/CydiaIcon.png
-Name: CyberKit MobileMiniBrowser Jetsam Configurator
 
 Package: com.matthewbenedict.mobileminibrowser+12
 Version: 0.0.7-alpha

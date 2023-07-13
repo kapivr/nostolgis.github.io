@@ -1,0 +1,22 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "headerImage": "https://uint2048.github.io/CydiaIcon.png",
+  "tintColor": "#6264D3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Information",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Description"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Installing this package causes jetsam to magically configure on your device.\n\nThen, you can remove this package as soon as it installs."
+        }
+      ]
+    }
+  ]
+}
