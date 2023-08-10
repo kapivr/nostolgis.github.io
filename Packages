@@ -4,10 +4,10 @@ Architecture: iphoneos-arm
 Maintainer: UInt2048
 Depends: plistbuddy
 Filename: ./debs/com.matthewbenedict.cyberkit_0.0.8-alpha_iphoneos-arm.deb
-Size: 1216
-MD5sum: 18e08f90ae3e5e28838788e0ffdad7c5
-SHA1: 3f2964de35f1d88fdd56d8bb48c78c5c7c22766a
-SHA256: b2a0ea200ccbb370d35066b6a068dda1765b3cd25fe0b4b31668011dea456d42
+Size: 1076
+MD5sum: ee15f7af099b1994071f52f6277dedb4
+SHA1: d88cbbc915a84fe2b1c1631f20e21b42bc90baf2
+SHA256: 7a30676c802454e642a8e411d6ca88f11d69979ad5d0811560224b531bd8f6f2
 Section: Tweaks
 Description: Install this to configure jetsam, then you can uninstall!
 Depiction: https://uint2048.github.io/depictions/?p=jetsam-configurator
