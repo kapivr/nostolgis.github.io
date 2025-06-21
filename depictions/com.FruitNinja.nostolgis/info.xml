@@ -1,0 +1,24 @@
+<package>
+    <id>com.FruitNinja.nostolgis</id>
+    <name>nostolgis</name>
+    <version>1.0.0-1</version>
+    <compatibility>
+        <firmware>
+            <miniOS>10.0</miniOS>
+            <maxiOS>16.0</maxiOS>
+            <otherVersions>unsupported</otherVersions>
+            <!--
+            for otherVersions, you can put either unsupported or unconfirmed
+            -->
+        </firmware>
+    </compatibility>
+    <dependencies></dependencies>
+    <descriptionlist>
+        <description>Requiers iOS 10-16.</description>
+    </descriptionlist>
+    <screenshots></screenshots>
+    <changelog>
+        <change>Initial release</change>
+    </changelog>
+    <links></links>
+</package>
